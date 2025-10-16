@@ -1,1 +1,12 @@
-﻿{"name":"client","version":"0.0.0"}
+{
+  "name": "client",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "npx http-server -p",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "jsdom": "^22.1.0"
+  }
+}
